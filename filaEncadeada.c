@@ -12,8 +12,8 @@ struct registro{
 typedef struct registro celula;
 
 struct fila{
-	struct celula *inicio;
-	struct celula *final;
+	celula *inicio;
+	celula *final;
 	int qtde;
 };
 
